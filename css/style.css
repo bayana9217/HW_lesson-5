@@ -1,0 +1,242 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing:border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+   font-size: inherit;
+   text-transform: uppercase;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body{
+	height: 100%;
+	font-size: 14px;
+   line-height: 1;
+   font-family: "Source Sans Pro";
+}
+/* -------------- */
+ h2, h3{
+   font-size: 35px;
+   font-weight: 700;
+   color: rgb(70, 70, 70);
+   margin: 25px;
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.container {
+   max-width: 1150px;
+   margin: 0 auto;
+}
+.header {
+   min-height: 100px;
+   background-color: rgb(38, 38, 39);
+}
+.header img{
+   margin: 20px;
+}
+.menu {
+   display: inline-block;
+   font-size: 0;
+   padding: 40px 20px 40px 30px;
+}
+.menu li {
+   display: inline-block;
+}
+.menulink {
+   font-size: 18px;
+   margin: 25px;
+   color: white;
+   font-weight: 700;
+}
+
+.main {
+   
+}
+.blockmain{
+   background-color: black;
+   min-height: 360px;
+}
+.block {
+   color: white;
+   text-align: center;
+   padding: 50px;
+}
+.block h1{
+   font-size: 75px;
+   margin: 0px 0px 30px 0px;
+   font-weight: 700;
+}
+.block h5{
+   margin: 0px 0px 5px 0px;
+   font-weight: 700;
+   font-size: 22px;
+}
+.block p{
+   max-width: 835px;
+   margin: 0 auto;
+   line-height: 26px;
+   letter-spacing: 3;
+}
+
+.marvel {
+   color: red;
+}
+
+.blocmain2{
+   text-align: center;
+   padding: 50px;
+   font-size: 18px;
+   line-height: 24px;
+}
+.twoblock p{
+   margin: 0px 0px 10px 0px;
+}
+.twoblock h3{
+   font-size: 25px;
+}
+.history {
+   font-weight: 700;
+  padding: 10px 0px 0px 0px;
+}
+.link {
+   color: red;
+   font-size: 18px;
+}
+
+.blockmain3{
+   text-align: center;
+   margin: 0px 0px 40px 0px;
+}
+
+.blockmain3 img{
+   display: inline-block;
+   width: 300px;
+   margin: 15px;
+}
+
+.name{
+   line-height: 30px;
+   letter-spacing: 4;
+}
+.namelink {
+   color: red;
+   font-weight: 700;
+   font-size: 20px;
+   letter-spacing: 2;
+}
+
+.blockmain4 {
+}
+.scroll{
+   max-height: 200px;
+   max-width: 1100px;
+   text-align: justify;
+   overflow: auto;
+   margin: 0px 0px 70px 0px;
+}
+
+.blockmain5 {
+   text-align: center;
+   margin: 0px 0px 50px 0px;
+}
+
+.news{}
+
+.news h1 {
+   font-size: 30px;
+   font-weight: 900;
+   margin: 0px 0px 50px 0px;
+}
+
+.info {
+}
+.infoinline {
+   display: inline-block;
+   max-height: 200px;
+   margin: 15px;
+   overflow: auto;
+}
+.infoinline img{
+   width: 300px;
+   margin: 0px 0px 10px 0px;
+}
+.infoinline h4{
+   max-width: 300px;
+   font-size: 18px;
+   font-weight: 700;
+   margin: 0px 0px 5px 0px;
+}
+.infoinline p{
+   max-width: 300px;
+}
+
+.footer {
+   background-color: rgb(38, 38, 39);
+   min-width: 400px;
+}
+
+.footerinfo {
+   padding: 30px;
+   text-align: center;
+}
+.footerinline {
+   max-height: 350px;
+   max-width: 250px;
+   display: inline-block;
+   margin: 0px 40px 0px 40px;
+}
+
+.footerinline p{
+   color: white;
+   text-transform: uppercase;
+   font-weight: 700;
+   line-height: 3;
+}
+.footerinline img{
+   margin: 0px 0px 20px 0px;
+}
+.footerinline h3{
+   color: white;
+}
+.uppercasespan {
+   font-size: 20px;
+}
+.footernews li{
+   margin: 0px 0px 5px 0px;
+}
+.footerlink {
+    color: white;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 2;
+}
+
